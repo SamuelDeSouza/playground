@@ -1,5 +1,5 @@
 {
-    "name":"samuel/playground",
+    "name":"samueldesouza/playground",
     "description":"pacote de teste",
     "type":"library",
     "license": "GPL-3.0-or-later",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "samuel\\playground\\":"src/playground/"
+            "samueldesouza\\playground\\":"src/playground/"
         }
     },
     
