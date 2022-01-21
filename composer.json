@@ -15,7 +15,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "vk2\\PainelAdmin\\": "src/"
+            "SamuelDeSouza\\playground\\": "src/"
         }
     },
     "minimum-stability": "stable",
