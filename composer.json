@@ -1,5 +1,5 @@
 {
-    "name": "vk2/painel-admin",
+    "name": "samueldesouza/playground",
     "description": "Painel base para os projetos da vk2",
     "authors": [
         {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vk2\\PainelAdmin\\PainelAdminServiceProvider"
+                "SamuelDeSouza\\playground\\PainelAdminServiceProvider"
             ]
         }
     }
