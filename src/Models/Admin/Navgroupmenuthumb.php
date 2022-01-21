@@ -1,0 +1,12 @@
+<?php
+
+namespace vk2\paineladmin\Models\Admin;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Navgroupmenuthumb extends Model
+{
+    protected $table = 'vpr_nav_group_menu_thumb';
+    protected $primaryKey = 'id_thumb';
+    protected $fillable = ['id_menu', 'height', 'width', 'storange_name', 'cut'];
+}

@@ -1,0 +1,29 @@
+{
+    "name": "vk2/painel-admin",
+    "description": "Painel base para os projetos da vk2",
+    "authors": [
+        {
+            "name": "Julio C. Venturin",
+            "email": "julio@vk2.com.br"
+        },
+        {
+            "name": "Samuel Bobermen de Souza",
+            "email": "samuel@vk2.com.br"
+        }
+    ],
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "vk2\\PainelAdmin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vk2\\PainelAdmin\\PainelAdminServiceProvider"
+            ]
+        }
+    }
+}
