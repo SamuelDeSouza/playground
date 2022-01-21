@@ -1,6 +1,6 @@
 <?php
 
-namespace vk2\paineladmin\Http\Controllers\Admin;
+namespace samueldesouza\playground\Http\Controllers\Admin;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Collection;
 use Auth;
 use DB;
-use vk2\paineladmin\Models\Admin\Navgroupmenu;
-use vk2\paineladmin\Models\Admin\Navgroupmenuchildren;
+use samueldesouza\playground\Models\Admin\Navgroupmenu;
+use samueldesouza\playground\Models\Admin\Navgroupmenuchildren;
 
 
 class Controller extends BaseController

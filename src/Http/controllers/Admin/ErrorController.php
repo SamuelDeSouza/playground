@@ -1,8 +1,8 @@
 <?php
 
-namespace vk2\paineladmin\Http\Controllers\Admin;
+namespace samueldesouza\playground\Http\Controllers\Admin;
 
-use vk2\paineladmin\Http\Controllers\Admin\Controller;
+use samueldesouza\playground\Http\Controllers\Admin\Controller;
 //use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Request;
 

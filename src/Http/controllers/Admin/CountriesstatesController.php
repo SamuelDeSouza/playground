@@ -1,8 +1,8 @@
 <?php
 
-namespace vk2\paineladmin\Http\Controllers\Admin;
+namespace samueldesouza\playground\Http\Controllers\Admin;
 
-use vk2\paineladmin\Models\Admin\Countriesstates;
+use samueldesouza\playground\Models\Admin\Countriesstates;
 use Illuminate\Http\Request;
 use DB;
 

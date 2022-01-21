@@ -1,8 +1,8 @@
 <?php
 
-namespace vk2\paineladmin\Http\Controllers\Admin;
+namespace samueldesouza\playground\Http\Controllers\Admin;
 
-use vk2\paineladmin\Models\Admin\Navgroupmenustyle;
+use samueldesouza\playground\Models\Admin\Navgroupmenustyle;
 use Illuminate\Http\Request;
 use DB;
 

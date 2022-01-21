@@ -1,6 +1,6 @@
 <?php
 
-namespace vk2\paineladmin\Models\Admin;
+namespace samueldesouza\playground\Models\Admin;
 
 use Illuminate\Database\Eloquent\Model;
 

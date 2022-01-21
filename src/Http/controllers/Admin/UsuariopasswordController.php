@@ -1,9 +1,9 @@
 <?php
 
-namespace vk2\paineladmin\Http\Controllers\Admin;
+namespace samueldesouza\playground\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use vk2\paineladmin\Models\Admin\Usuariopassword;
+use samueldesouza\playground\Models\Admin\Usuariopassword;
 use Illuminate\Http\Request as Requestform;
 
 class UsuariopasswordController extends Controller

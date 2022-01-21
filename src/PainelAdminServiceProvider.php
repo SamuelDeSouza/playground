@@ -1,6 +1,6 @@
 <?php
-// vk2\paineladmin\src\PainelAdminServiceProvider.php
-namespace vk2\paineladmin;
+// samueldesouza\playground\src\PainelAdminServiceProvider.php
+namespace samueldesouza\playground;
 use Illuminate\Support\ServiceProvider;
 class PainelAdminServiceProvider extends ServiceProvider 
 {
