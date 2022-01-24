@@ -3,7 +3,7 @@
 namespace samueldesouza\playground;
 class PainelAdminServiceProvider extends  \Illuminate\Support\ServiceProvider
 {
-    public function boot()
+    public function boot(Illuminate\Routing\Router $router)
     {
         $this->publishes([
             __DIR__.'/Http/controllers' => app_path('Http/Controllers'),
