@@ -1,6 +1,6 @@
 <?php
 // samueldesouza\playground\src\PainelAdminServiceProvider.php
-namespace App;
+namespace samueldesouza\playground;
 class PainelAdminServiceProvider extends  \Illuminate\Support\ServiceProvider
 {
     public function boot()
