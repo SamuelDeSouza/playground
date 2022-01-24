@@ -16,7 +16,16 @@ class PainelAdminServiceProvider extends  \Illuminate\Support\ServiceProvider
         // $this->loadRoutesFrom(__DIR__.'/routes/admin.php');
         // $this->loadViewsFrom(__DIR__.'/resources/views/Admin/', 'Admin');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
-
+        
+        $router->middlewareGroup('admin', array(
+            \App\Http\Middleware\EncryptCookies::class,
+            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            \Illuminate\Session\Middleware\StartSession::class,
+            // \Illuminate\Session\Middleware\AuthenticateSession::class,
+            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+            \App\Http\Middleware\VerifyCsrfToken::class,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ));
     }
     public function register()
     {
