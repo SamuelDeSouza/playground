@@ -1,9 +1,10 @@
 <?php
 // samueldesouza\playground\src\PainelAdminServiceProvider.php
 namespace samueldesouza\playground;
+use Illuminate\Routing\Router;
 class PainelAdminServiceProvider extends  \Illuminate\Support\ServiceProvider
 {
-    public function boot(Illuminate\Routing\Router $router)
+    public function boot(Router $router)
     {
         $this->publishes([
             __DIR__.'/Http/controllers' => app_path('Http/Controllers'),
