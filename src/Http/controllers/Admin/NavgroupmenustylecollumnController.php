@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Navgroupmenustylecollumn;
+use App\Models\Admin\Navgroupmenustylecollumn;
 use Illuminate\Http\Request;
 use DB;
 use Illuminate\Support\Facades\URL;

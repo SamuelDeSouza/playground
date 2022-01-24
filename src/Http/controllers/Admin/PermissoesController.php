@@ -1,9 +1,9 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use samueldesouza\playground\Models\Admin\Permissoes;
+use App\Models\Admin\Permissoes;
 use DB;
 
 class PermissoesController extends Controller

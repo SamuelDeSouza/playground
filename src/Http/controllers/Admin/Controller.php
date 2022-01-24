@@ -1,6 +1,6 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Collection;
 use Auth;
 use DB;
-use samueldesouza\playground\Models\Admin\Navgroupmenu;
-use samueldesouza\playground\Models\Admin\Navgroupmenuchildren;
+use App\Models\Admin\Navgroupmenu;
+use App\Models\Admin\Navgroupmenuchildren;
 
 
 class Controller extends BaseController

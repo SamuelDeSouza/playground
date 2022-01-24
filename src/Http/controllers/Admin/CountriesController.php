@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Countries;
+use App\Models\Admin\Countries;
 use Illuminate\Http\Request;
 
 class CountriesController extends Controller

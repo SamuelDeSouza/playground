@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Ajustes;
+use App\Models\Admin\Ajustes;
 use Illuminate\Http\Request;
 
 class AjustesController extends Controller

@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Configurationmail;
+use App\Models\Admin\Configurationmail;
 use Illuminate\Http\Request;
 
 class ConfigurationmailController extends Controller

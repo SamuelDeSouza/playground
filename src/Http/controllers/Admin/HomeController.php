@@ -1,9 +1,9 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use samueldesouza\playground\Http\Controllers\Admin\Controller;
+use App\Http\Controllers\Admin\Controller;
 
 class HomeController extends Controller
 {

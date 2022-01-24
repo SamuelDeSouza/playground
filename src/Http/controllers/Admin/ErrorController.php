@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Http\Controllers\Admin\Controller;
+use App\Http\Controllers\Admin\Controller;
 //use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Request;
 

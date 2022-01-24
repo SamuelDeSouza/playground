@@ -1,9 +1,9 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use samueldesouza\playground\Models\Admin\Usuariopassword;
+use App\Models\Admin\Usuariopassword;
 use Illuminate\Http\Request as Requestform;
 
 class UsuariopasswordController extends Controller

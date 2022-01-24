@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Liststyle;
+use App\Models\Admin\Liststyle;
 use Illuminate\Http\Request;
 
 class ListstyleController extends Controller

@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Navgroup;
+use App\Models\Admin\Navgroup;
 use Illuminate\Http\Request;
 use DB;
 

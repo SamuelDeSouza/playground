@@ -1,8 +1,8 @@
 <?php
 
-namespace samueldesouza\playground\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin;
 
-use samueldesouza\playground\Models\Admin\Countriesstates;
+use App\Models\Admin\Countriesstates;
 use Illuminate\Http\Request;
 use DB;
 
