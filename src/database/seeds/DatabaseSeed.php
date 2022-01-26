@@ -1,7 +1,5 @@
 <?php
 
-namespace samueldesouza\playground\Database\Seeds;
-
 use Illuminate\Database\Seeder;
 
 class DatabaseSeed extends Seeder
