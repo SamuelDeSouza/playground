@@ -19,7 +19,7 @@ class ConfigurationController extends Controller
         //Pega link da pag. pai ('informar null caso nao tenha pag. pai')
         $this->pageConf->pageFather = "null";                                             
         //Chave Estrangeira do pai para criar SQL
-        $this->pageConf->collunIdFather = "[id_do_pai]";                                      
+        $this->pageConf->collunIdFather = "[id__pai]";                                      
         //Pega o submenu de cadastro
         $this->pageConf->pageChildren = $this->getPageChildren();                         
     }
