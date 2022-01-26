@@ -16,7 +16,7 @@
     "autoload": {
         "psr-4": {
             "SamuelDeSouza\\playground\\": "src/",
-            "SamuelDeSouza\\playground\\Database\\Seeds": "database/seeds/"
+            "SamuelDeSouza\\playground\\Database\\Seeds\\": "database/seeds/"
         }
     },
     "minimum-stability": "stable",
